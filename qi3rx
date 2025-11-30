@@ -74,6 +74,8 @@ end)
 
 local MainTab = window:AddTab("Main")
 local KillingTab = window:AddTab("Killing")
+local FastFarmtab = window:AddTab("Fast Farm")
+KillingTab:Show()
 
 infoTab:AddLabel("Made by Qi3rx").TextSize = 20
 
