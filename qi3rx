@@ -73,6 +73,7 @@ ReplicatedStorage.ChildAdded:Connect(function(child)
 end)
 
 local MainTab = window:AddTab("Main")
+local KillingTab = window:AddTab("Killing")
 
 infoTab:AddLabel("Made by Qi3rx").TextSize = 20
 
